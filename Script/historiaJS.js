@@ -8,7 +8,7 @@ const items = document.querySelectorAll('.historia-item');
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.5 }); // 20% do elemento visível
+    }, { threshold: 0.2 }); // 30% do elemento visível
 
     items.forEach(item => observer.observe(item));
 
@@ -33,4 +33,5 @@ const mobileMenu = document.getElementById('mobile-menu');
 hamburgerBtn.addEventListener('click', () => {
     hamburgerBtn.classList.toggle('active');
     mobileMenu.classList.toggle('open');
+
 });
