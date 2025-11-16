@@ -8,7 +8,7 @@ const items = document.querySelectorAll('.historia-item');
                 observer.unobserve(entry.target);
             }
         });
-    }, { threshold: 0.3 }); // 30% do elemento visível
+    }, { threshold: 0.5 }); // 50% do elemento visível
 
     items.forEach(item => observer.observe(item));
 
@@ -23,7 +23,7 @@ const photoObserver = new IntersectionObserver((entries) => {
             photoObserver.unobserve(entry.target);
         }
     });
-}, { threshold: 0.5 }); // 20% do elemento visível na minha telinha
+}, { threshold: 0.3 }); // 30% do elemento visível na minha telinha
 
 photo.forEach(img => photoObserver.observe(img));
 
@@ -34,4 +34,5 @@ hamburgerBtn.addEventListener('click', () => {
     hamburgerBtn.classList.toggle('active');
     mobileMenu.classList.toggle('open');
 });
+
 
