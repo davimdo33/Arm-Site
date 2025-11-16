@@ -588,6 +588,8 @@ footer {
     .imagem-de-fundo {
         width: 270px;
         margin-right: 30px;
+        transform: translateX(0px);
+        opacity: 1;
     }
 
     #camera-dark {
@@ -687,6 +689,8 @@ footer {
     .imagem-de-fundo {
         width: 200px;
         margin-right: 30px;
+        transform: translateX(0px)
+        opacity: 1;
     }
 
     #camera-dark {
@@ -702,7 +706,7 @@ footer {
 
 }
 
-
+/* celulares muito pequeninos */
 @media screen and (max-width: 425px) {
     
     body::-webkit-scrollbar {
@@ -787,6 +791,8 @@ footer {
     .imagem-de-fundo {
         width: 150px;
         margin-right: 25px;
+        transform: translateX(0px)
+        opacity: 1;
     }
 
     #camera-dark {
@@ -800,6 +806,7 @@ footer {
         display: none;
     }
 }
+
 
 
 
