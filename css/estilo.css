@@ -477,6 +477,21 @@ footer {
     right: 0;  
 }
 
+@media (orientation: landscape) {
+    
+    #arm-intro{
+        background-image: url('../Imagens/Moni-moni.jpg');
+    }
+
+    #history-intro {
+        background-image: url('../Imagens/history_back.jpg');
+    }
+
+    #servicos-intro {
+        background-image: url('../Imagens/controleAcesso.jpg');
+    }
+}
+
 
 @media (orientation: portrait) {
     
@@ -785,6 +800,7 @@ footer {
         display: none;
     }
 }
+
 
 
 
