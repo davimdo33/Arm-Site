@@ -74,7 +74,7 @@ body {
 header {
     animation: HeaderBackground linear both;
     animation-timeline: view();
-    animation-range: entry -20% exit 200%;
+    animation-range: entry 30% exit 200%;
     color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
@@ -806,6 +806,7 @@ footer {
         display: none;
     }
 }
+
 
 
 
