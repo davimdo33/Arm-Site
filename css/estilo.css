@@ -13,10 +13,10 @@
 
 @keyframes HeaderBackground {
     0% {
-        background-color: #1a1a1a20;
+        background-color: #1a1a1a00;
     }
     60% {
-        background-color: #1a1a1a20;
+        background-color: #1a1a1a00;
     }
     100% {
         background-color: #1a1a1a;
@@ -806,6 +806,7 @@ footer {
         display: none;
     }
 }
+
 
 
 
