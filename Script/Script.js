@@ -32,6 +32,7 @@ next.onclick = function(){
     loadShow();
 }
 prev.onclick = function(){
+    setInterval(proximo, 10000);
     active = active - 1 >= 0 ? active - 1 : 3;
     loadShow();
 }
@@ -45,6 +46,8 @@ option.forEach(item => {
 })
 
 function proximo(){
+    
+    setInterval(proximo, 10000);
     active = active + 1 < items.length ? active + 1 : 0;
     loadShow();
 }
@@ -57,4 +60,5 @@ const mobileMenu = document.getElementById('mobile-menu');
 hamburgerBtn.addEventListener('click', () => {
     hamburgerBtn.classList.toggle('active');
     mobileMenu.classList.toggle('open');
+
 });
